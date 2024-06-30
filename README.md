@@ -1,2 +1,2 @@
 # odin-landing-page
-A landing page as a project in TOP
+This is a basic landing page I made as an assignment for The Odin Project. It's not responsive, so it won't look good on anything other than a desktop screen. I repeat, for viewing on desktop screen only.
