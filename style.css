@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    transition-duration: 0s;
+    color: #E5E7EB;
+}
+
+a:hover {color: #F9FAF8;}
+
+button {
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 8px 16px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+    cursor: pointer;
+}
+
+ul {
+    color: #E5E7EB;
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.wrapper-vert {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.header,
+.hero-section,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.header {
+    justify-content: space-between;
+    padding-top: 16px; 
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero-section {
+    gap: 32px;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+#hero-image {
+    display: block;
+    width: 50%;
+}
+
+.hero-text-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text-secondary {color: #E5E7EB;}
+
+/* Info Section Properties */
+
+.info-section {
+    align-items: center;
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20vh 10vw;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: space-between;
+}
+
+.info-item {
+    align-items: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 90px;
+}
+
+.info-image {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    flex: none;
+}
+
+.info-text {
+    color: #606060;
+    text-align: center;
+}
+
+/* Quote Section is here */
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20vh 10vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.quote-reference {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+}
+
+/* Call to action section */
+
+.call-to-action-section {
+    background-color: #F9FAF8;
+    padding: 72px 10vw;
+}
+.call-to-action {
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+
+.call-to-action .wrapper-vert {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.call-to-action-main-text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Secondary text looks good as is, doesn't need much rn. Maybe later */
+
+#call-to-action-button {border: 2px solid #F9FAF8;}
+
+
+/* Footer */
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    padding: 24px 10vw;
+}
